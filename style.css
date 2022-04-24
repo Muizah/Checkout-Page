@@ -1,0 +1,223 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --gray1: #333;
+  --gray3: #828282;
+}
+
+body {
+  margin: 50px 175px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  /* color: var(--gray3); */
+}
+
+.h1 {
+  width: 180px;
+  height: 44px;
+  margin: 0.64px 10.19px 10.31px 2.4px;
+}
+
+.CI {
+  padding: 25px 0px 10px 0px;
+  color: var(--gray1);
+}
+
+.container1 {
+  float: left;
+  height: 90vh;
+  width: 63%;
+}
+
+.container2 {
+  float: right;
+  height: 70vh;
+  width: 37%;
+  background-color: #f2f2f2;
+  margin: 4.5rem 0rem;
+  border-radius: 12px;
+}
+
+.subA {
+  display: flex;
+  flex-direction: row;
+}
+
+.subB {
+  display: flex;
+  flex-direction: row;
+}
+
+.subcontainer1 {
+  width: 175.7px;
+  height: 180px;
+}
+
+.subcontainer2 {
+  width: 175.7px;
+  height: 180px;
+  margin-left: 15px;
+}
+
+img {
+  margin: 30px 25px;
+  border-radius: rem;
+  width: 130px;
+  height: 140px;
+  border-radius: 9px;
+}
+
+.checkbox {
+  display: flex;
+  gap: 11px;
+}
+
+.form-group {
+  border: 1px solid var(--gray3);
+  width: 465px;
+  color: var(--gray3);
+  height: 40px;
+  border-radius: 12px;
+  display: flex;
+  padding: 14px 20px;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  gap: 18px;
+}
+.form-group input {
+  border: none;
+  outline: none;
+  /* width: 100%; */
+}
+
+.form-group i {
+  font-size: 24px;
+}
+
+button {
+  background-color: #f2994a;
+  color: #ffffff;
+  margin: 1.5rem 0 0 25.5rem;
+  padding: 1rem 2.2rem 0.4rem 2.2rem;
+  border-radius: 12px;
+  border-color: transparent;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.phone {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.fullname {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.city {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.country {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 32%;
+}
+
+.postalcode {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 32%;
+}
+
+.SA {
+  padding: 45px 0px 12px 0px;
+}
+
+.country-postalcode {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.prices {
+  display: flex;
+  flex-direction: row;
+  width: 110px;
+}
+
+.VB {
+  margin-top: 30px;
+}
+
+.LS {
+  margin-top: 30px;
+}
+
+.shipping {
+  display: flex;
+  flex-direction: row;
+  gap: 13rem;
+  margin-left: 24px;
+  color: var(--gray1);
+}
+
+.total {
+  display: flex;
+  flex-direction: row;
+  gap: 13rem;
+  margin-left: 24px;
+  color: var(--gray1);
+}
+
+.hr {
+  width: 327.06px;
+  height: 0px;
+  margin-left: 24px;
+  border: 1px solid #bdbdbd;
+  color: #bdbdbd;
+  transform: rotate(-0.18deg);
+}
+
+footer {
+  width: 501px;
+  height: 17px;
+  text-align: center;
+  justify-self: baseline;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
