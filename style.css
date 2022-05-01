@@ -11,7 +11,7 @@
 }
 
 body {
-  margin: 50px 175px;
+  padding: 50px 175px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
@@ -25,23 +25,27 @@ body {
 }
 
 .CI {
-  padding: 25px 0px 10px 0px;
+  padding: 25px 0px 15px 0px;
   color: var(--gray1);
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
 .container1 {
-  float: left;
   height: 90vh;
   width: 63%;
 }
 
 .container2 {
-  float: right;
-  height: 70vh;
-  width: 37%;
+  width: 50%;
   background-color: #f2f2f2;
   margin: 4.5rem 0rem;
   border-radius: 12px;
+  padding: 33px 26px 33px 29px;
 }
 
 .subA {
@@ -66,7 +70,6 @@ body {
 }
 
 img {
-  margin: 30px 25px;
   border-radius: rem;
   width: 130px;
   height: 140px;
@@ -109,7 +112,8 @@ img {
 button {
   background-color: #f2994a;
   color: #ffffff;
-  margin: 1.5rem 0 0 25.5rem;
+  /* margin: 1.5rem 0 0 25.5rem; */
+  margin: 15px auto;
   padding: 1rem 2.2rem 0.4rem 2.2rem;
   border-radius: 12px;
   border-color: transparent;
@@ -118,45 +122,50 @@ button {
 .email {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 7.5px;
+  margin-bottom: 15px;
 }
 
 .phone {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 7.5px;
 }
 
 .fullname {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 7.5px;
+  margin-bottom: 15px;
 }
 
 .address {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 7.5px;
+  margin-bottom: 15px;
 }
 
 .city {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 7.5px;
+  margin-bottom: 15px;
 }
 
 .country {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
-  width: 32%;
+  gap: 7.5px;
+  margin-bottom: 15px;
+  width: 222px;
 }
 
 .postalcode {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
-  width: 32%;
+  gap: 7.5px;
+  width: 222px;
 }
 
 .SA {
@@ -166,21 +175,20 @@ button {
 .country-postalcode {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 20px;
+  width: 465px;
 }
-
+.country-postalcode input {
+  width: 100%;
+}
+.country-postalcode .form-group {
+  width: 100%;
+}
 .prices {
   display: flex;
   flex-direction: row;
   width: 110px;
-}
-
-.VB {
-  margin-top: 30px;
-}
-
-.LS {
-  margin-top: 30px;
+  margin-top: 6px;
 }
 
 .shipping {
@@ -200,17 +208,16 @@ button {
 }
 
 .hr {
-  width: 327.06px;
-  height: 0px;
-  margin-left: 24px;
+  width: 100%;
+  height: 2px;
   border: 1px solid #bdbdbd;
   color: #bdbdbd;
-  transform: rotate(-0.18deg);
+  margin-top: 11px;
+  margin-bottom: 11px;
 }
 
 footer {
-  width: 501px;
-  height: 17px;
+  margin-top: 60px;
   text-align: center;
   justify-self: baseline;
 }
