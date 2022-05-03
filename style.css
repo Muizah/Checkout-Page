@@ -222,6 +222,10 @@ footer {
 }
 
 @media (min-width: 375px) and (max-width: 800px) {
+  body {
+    width: 100vh;
+  }
+
   .container {
     display: flex;
     flex-direction: column-reverse;
@@ -231,5 +235,13 @@ footer {
     width: 119px;
     height: 128px;
     border-radius: 9px;
+  }
+
+  .container2 {
+    width: 60vh;
+  }
+
+  .CI {
+    font-size: 14px;
   }
 }
