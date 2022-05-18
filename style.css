@@ -108,7 +108,7 @@ img {
   font-size: 24px;
 }
 
-button {
+button.submit {
   background-color: #f2994a;
   color: #ffffff;
   /* margin: 1.5rem 0 0 25.5rem; */
@@ -188,6 +188,37 @@ button {
   flex-direction: row;
   width: 110px;
   margin-top: 6px;
+}
+
+.quantity {
+  border: 1px solid #828282;
+  border-radius: 12px;
+  padding: 15px 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity button {
+  background: #e0e0e0;
+  border-radius: 4px;
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.quantity p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
 }
 
 .shipping {
